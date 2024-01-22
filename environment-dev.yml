@@ -1,0 +1,10 @@
+name: joyofenergy
+channels:
+- conda-forge
+dependencies:
+- jq==1.6
+- python==3.11
+- pip==23
+- pip:
+    - pre-commit
+    - conan~=2.0
